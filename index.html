@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="./assets/encriptado-de-datos.png">
+   
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Encriptador</title>
+</head>
+<body>
+    <main >
+        <section>
+            <div class="contenido">
+                <textarea id="contenidot" placeholder="INGRESE EL TEXTO AQUI"></textarea>
+            </div>
+            <p id="info"><img src="assets/alerta.png" alt="alerta" id="img-alerta">Solo usar letras minusculas y sin acentos</p>
+            <div class="botones">
+                <input type="button" id="encriptar" value="ENCRIPTAR CONTENIDO"></input>
+                <input  type="button" id="desencriptar" value="DESENCRIPTAR CONTENIDO"></input>
+            </div>
+        </section>
+
+        <section class="resultado">
+            <div class="contenido-texto">
+                <p>NINGUN MENSAJE FUE ENCONTRADO</p>
+            </div>
+            
+            <div>
+                <input  type="button"  id="copiarT" value="COPIAR"></input>
+            </div>
+
+            <div class="contenedor-resultado">
+                <p id="resultadoC"></p>
+            </div>
+        </section>    
+    </main>
+
+
+    <script src="acciones.js"></script>
+</body>
+</html>

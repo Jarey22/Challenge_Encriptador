@@ -1,0 +1,105 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 21%);
+    
+}
+.resultado{
+    background-color: azure;
+}
+main{
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    
+}
+#contenidot {
+    resize: none;
+    margin: 12px 0 0 10px;
+    font-size: 30px;
+    width: 800px;
+    height: 620px;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: #AAD4D6;
+}
+#resultadoC{
+    font-size: 25px;
+    width: 500px;
+    display: flex;
+    position: relative;
+    padding-left: 21px;
+}
+
+.botones{
+  position: relative;
+ margin-left: 170px;
+ margin-top: 8px;
+}
+#encriptar{
+    padding: 5px;
+    background-color:#005F63;
+    color: azure;
+    margin-right: 50px;
+    border-radius:5px ;
+}
+#encriptar:hover{
+    cursor: pointer;
+    border-radius:15px ;
+    transition: 600ms;
+}
+#desencriptar{
+    padding: 5px;
+    background-color:#005F63;
+    color: azure;
+    border-radius:5px ;
+}
+#desencriptar:hover{
+    cursor: pointer;
+    border-radius:15px ;
+    transition: 600ms;
+}
+#info{
+    color: azure;
+    margin-left: 200px;
+}
+#img-alerta{
+    margin-right: 10px;
+}
+.resultado{
+    position: relative;
+    left: 80px;
+    border: solid 3px black;
+    padding-bottom:500px ;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #AAD4D6;
+}
+#copiarT:hover{
+cursor: pointer;
+transition: 600ms;
+border-radius: 10px;
+}
+#copiarT{
+    background-color:#005F63;
+    position: relative;
+    left: 240px;
+    top: 600px;
+    padding: 7px;
+    border-radius:5px ;
+    transition: 600ms;
+    color: azure;
+}
+.ocultar{
+    display: none;
+}
+.contenido-texto p{
+    font-size: 25px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
